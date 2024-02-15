@@ -1,0 +1,324 @@
+@font-face {
+    font-family: Montserrat Alternates;
+    src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: Montserrat Alternates;
+    src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Montserrat Alternates;
+    src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf");
+    font-weight: 500;
+}
+@font-face {
+    font-family: Montserrat Alternates;
+    src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf");
+    font-weight: 300;
+}
+
+.navbar-big{
+    margin:0;
+    height:79px;
+    background-color: white;
+    filter: drop-shadow(0px 2px 20px #000000);
+    padding:8px 16px 8px 16px;
+    
+}
+
+.big-logo{
+    height: 41px;
+    object-fit: contain;
+}
+.vertical-line{
+    min-width:2px;
+    min-height:52px;
+    background-color: #4F52C3;
+    border-radius: 2px;
+    
+}
+.logo-info-holder{
+    width:450px;
+}
+.text-info-1{
+    font-family: Montserrat Alternates;
+    font-size: 14px;    
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0em;
+}
+.menu-dropdown{
+    width:150px;
+    gap:8px;
+}
+.menu-dropdown>*{
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.wa-callback-holder{
+    width:450px;
+}
+.wa-navbar-link-holder{
+    width: 150px;
+}
+.wa-navbar-link-holder>*{
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: underline;
+    
+}
+.wa-big-navbar{
+    height: 39px;
+    object-fit: contain;
+}
+
+.back-call-navbar-link-holder{
+    width: 250px;
+}
+.navbar-phone-number{
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: right;
+    color: #FF504D;
+}
+
+.navbar-phone-number-info{
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-align: right;
+    text-decoration: underline;
+}
+
+
+
+.no-decoration-link{
+    text-decoration: none;
+    color:black;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 119px);
+    margin-top:119px;
+}
+
+.img-bg{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1000;
+}
+
+.main-text{
+    margin-top:70px;
+    position: relative;
+    z-index: 100;
+
+
+    
+}
+
+.main-text *{
+    font-family: Montserrat Alternates;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.strong-text{
+    color: #FF5353;
+}
+
+.tick{
+    width: 33px;
+    height: 33px;
+}
+
+.small-text{
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main-page-info-container{
+    width: 262px;
+    margin:16px;
+}
+.main-page-info-container-text{
+    width: 221px;
+}
+
+.bottom-info-row{
+    position: absolute;
+    top: calc(100% - 100px);
+    width: 100%;
+    height:100px;
+    border-radius: 40px;
+    border:1px solid #EFEFEF;
+
+    background-color: white;
+}
+
+.main-big-img{
+    object-fit: cover;
+}
+
+.secondary-label{
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.get-price-text{
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.get-price-main-btn{
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+    background-color: #FF5353;
+    padding:20px 50px 20px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.get-price-main-btn:hover{
+    color: white;
+}
+
+.main-info-container{
+    padding: 20px;
+    padding-top:100px;
+    margin-top:-50px;
+
+    background-color: #EFEFEF;
+}
+
+
+.category-card{
+    width: 280px;
+    height: 420px;
+    padding:30px;
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.categoru-image-text-holder{
+    position: relative;
+    top:-60px;
+}
+
+.category-text{
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.category-description{
+    font-family: Montserrat Alternates;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.small-price-link{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    text-align: center;
+
+    border-radius:10px;
+    padding: 20px;
+    border:3px solid #FE504E;
+    text-decoration: none;
+    color:black;
+}
+.small-price-link:hover{
+    color: white;
+}
+
+.all-category-holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:60px;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+}
+.category-line{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:60px;
+    justify-content: center;
+    width: 100%;
+    
+}
